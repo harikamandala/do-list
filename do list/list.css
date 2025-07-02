@@ -1,0 +1,85 @@
+body {
+      background-color:rgb(175, 190, 76);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .todo-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .header h2 {
+      margin: 0;
+      font-size: 20px;
+      border: 2px solid #a0522d;
+      padding: 4px 8px;
+      border-radius: 6px;
+      color: #a0522d;
+    }
+    
+    
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    li input[type="checkbox"] {
+      margin-right: 10px;
+      width: 18px;
+      height: 18px;
+    }
+    
+    .input-section {
+      display: flex;
+      margin-bottom: 15px;
+    }
+    .input-section input {
+      flex: 1;
+      padding: 5px;
+      font-size: 14px;
+    }
+    .input-section button {
+      padding: 5px 10px;
+      margin-left: 5px;
+      background-color: #a0522d;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .input-section button:hover {
+      background-color: #804000;
+    }
+    .delete-btn {
+      background: #ff6666;
+      border: none;
+      color: white;
+      padding: 2px 6px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .delete-btn:hover {
+      background: #cc0000;
+    }
+    .para{
+        color: #cc0000;
+    }
